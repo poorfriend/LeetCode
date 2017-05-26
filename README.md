@@ -1,6 +1,9 @@
 # LeetCode
 Code for LeetCode
 
+## 位运算
+- [268.Missing_Number](./268.Missing_Number.md)
+
 ## 树
 - [100.Same Tree](.\100.Same_Tree.md)
 
