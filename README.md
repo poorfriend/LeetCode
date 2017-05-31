@@ -14,6 +14,8 @@ Code for LeetCode
 ## 字符串
 
 - [387.First_Unique_Character_in_a_String](./387.First_Unique_Character_in_a_String.md)
+- [541.Reverse_String_II](./541.Reverse_String_II.md)
+- [551.Student_Attendance_Record_I](./551.Student_Attendance_Record_I.md)
 
 ## 进制
 - [168.Excel_Sheet_Column_Title](./168.Excel_Sheet_Column_Title.md)
