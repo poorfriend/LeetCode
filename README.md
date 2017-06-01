@@ -3,9 +3,7 @@ Code for LeetCode
 
 ## 树
 - [100.Same Tree](.\100.Same_Tree.md)
-
-## 链表
-- []()
+- [404.Sum_of_Left_Leaves](404.Sum_of_Left_Leaves.md)
 
 
 ## 字符串
@@ -15,3 +13,5 @@ Code for LeetCode
 ## 进制
 - [168.Excel_Sheet_Column_Title](./168.Excel_Sheet_Column_Title.md)
 - [171.Excel_heet_Column_Number](./171.Excel_Sheet_Column_Number.md)
+
+
