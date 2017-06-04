@@ -2,6 +2,7 @@
 Code for LeetCode
 
 ## 位运算
+- [231.Power_of_Two.md](./231.Power_of_Two.md)
 - [268.Missing_Number](./268.Missing_Number.md)
 
 ## 树
@@ -27,4 +28,8 @@ Code for LeetCode
 ## STL
 - [217.Contains_Duplicate](./217.Contains_Duplicate.md)
 - [350.Intersection_of_Two_Arrays_II](./350.Intersection_of_Two_Arrays_II.md)
+
+## 智力题
+- [202.Happy_Number](./202.Happy_Number.md)
+- [326.Power_of_Three.md](./326.Power_of_Three.md)
 
