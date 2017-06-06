@@ -30,6 +30,7 @@ Code for LeetCode
 - [350.Intersection_of_Two_Arrays_II](./350.Intersection_of_Two_Arrays_II.md)
 
 ## 智力题
+- [53.Maximum_Subarray](./53.Maximum_Subarray.md)
 - [202.Happy_Number](./202.Happy_Number.md)
 - [326.Power_of_Three.md](./326.Power_of_Three.md)
 
