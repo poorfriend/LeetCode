@@ -1,7 +1,8 @@
 # LeetCode
-Code for LeetCode
+能有循环代替的就用循环代替
 
 ## 位运算
+- [191.Number_of_1_Bits.md](./191.Number_of_1_Bits.md)
 - [231.Power_of_Two.md](./231.Power_of_Two.md)
 - [268.Missing_Number](./268.Missing_Number.md)
 
