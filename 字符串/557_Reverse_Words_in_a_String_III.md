@@ -15,21 +15,41 @@ Note:
 ## 代码
 
 ```cpp
-vector<vector<int>> matrixReshape(vector<vector<int>>& nums, int r, int c) {
-        int total = nums.size() * nums[0].size();
-        if (r * c != total)
-            return nums;
-        vector<vector<int>> tmp(r, vector<int>(c,0));
-        int ncount=0;
-        for(const auto v : nums)
-            for(const auto i :v){
-                tmp[ncount / c][ncount % c] = i;
-                ++ncount;
-            }
-        return tmp;
+string reverseWords(string s) {
+    if(s.empty())
+        return s;
+    int loc = -1;
+    string res(s.size(), 'a');
+    for(string::size_type i=0; i < s.size(); ++i){
+        if(s[i] != ' '){
+            if( i < s.size()-1)
+                continue;
+            ++i;
+        }
+        for(string::size_type j=loc+1; j<i; ++j){
+            res[j] = s[i - j + loc]; 
+        }
+        if(i < s.size()-1)
+            res[i] = ' ';
+        loc = i;
+    }
+    return res;    
+}
 ```
 
-
+```cpp
+string reverseWords(string s) {
+    size_t front = 0;
+    for(int i = 0; i <= s.length(); ++i){
+        if(i == s.length() || s[i] == ' '){
+            reverse(&s[front], &s[i]);
+            front = i + 1;
+        }
+    }
+    
+    return s;
+}
+```
 
 ```cpp
     string reverseWords(string s) {
